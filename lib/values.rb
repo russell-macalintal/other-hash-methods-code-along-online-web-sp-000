@@ -14,7 +14,9 @@ def get_the_values(groceries)
   value_array = groceries.values
   flattened_array = []
   value_array.each do |array|
-    flattened_array << array
+    array.each do |value|
+      flattened_array << value
+    end
   end
   binding.pry
 end
