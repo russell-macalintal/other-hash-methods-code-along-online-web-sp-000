@@ -18,5 +18,6 @@ def get_the_values(groceries)
       flattened_array << value
     end
   end
+  flattened_array
   # binding.pry
 end
